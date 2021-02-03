@@ -21,10 +21,12 @@ end
 def id_hash_generator(number)
   # return a hash with a key :id assigned to the provided number
 id_hash_generator={:id=>number}
-id_hash_generator
-id_hash_generator[:id]=451
-id_hash_generator
+#id_hash_generator
+#id_hash_generator[:id]=451
+#id_hash_generator
 end
+id_hash_generator(5)
+id_hash_generator(451)
 
 =begin
 describe "id_hash_generator" do
